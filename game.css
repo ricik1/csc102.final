@@ -1,0 +1,106 @@
+/* Erica Egan*/
+/* CSC102 -game*/
+
+body {
+  font-family: Arial, sans-serif, bold;
+  background-color: #f2f2f2;
+  text-align: center;
+  margin-top: 50px;
+  
+    position: relative;
+  
+
+  .phrase { /* these was added to style and postion the words random number slots they are the phrase1,2,3*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #f70a0a;
+    font-size: 40px;
+    pointer-events: none;
+  }
+
+  #phrase1 {
+    top: 10%;
+    left: 10%;
+  }
+
+  #phrase2 {
+    top: 30%;
+    left: 40%;
+  }
+
+  #phrase3 {
+    top: 50%;
+    left: 70%;
+    
+  }
+  
+  
+    }
+    
+  
+h1 {
+  color: #28de31;
+  position: absolute;
+  left:50%;
+  bottom: 20px;
+  
+}
+h2 /*for my headers I just wanted them to be bright like vegas lights*/
+{
+  color:rgb(211, 50, 205);
+    
+}
+h3
+{
+  color: aqua;
+  font-size: xx-large;
+}
+
+.header-container { /* this was used to make my one header float across the screen*/
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  animation: float-headers 10s linear infinite;
+}
+
+@keyframes float-headers {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+  
+
+
+button
+ {
+  padding: 10px 20px;/* this was all added to give my button some style*/
+  font-size: 50px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: dashed;
+  border-radius:80px 0px 80px 0px; ;
+  cursor: grab; /*added the grab so the hand would grab the button when clicked*/
+  
+  border: 5px dashed #1fed30;
+  border-radius: 40px 0px 40px 0px;
+
+}
+nav 
+{
+  
+  font-size: xx-large;
+}
+
+
+
+

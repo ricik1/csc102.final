@@ -1,0 +1,38 @@
+/* Erica Egan*/
+/* CSC102 -sound*/
+
+
+
+
+body
+{
+
+background-image: url(fall.jpg); /* my pic */
+background-repeat: no-repeat; /* not repeating */ 
+background-size: cover; /* image to cover the entire background */
+}
+
+button
+{
+    
+    color: rgb(16, 13, 13); /*my buttons- this is waht gave them both style, the shape, color size */
+    font-size: 29px; line-height:29px; 
+    padding: 20px; 
+    border-radius: 25px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: italic; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(152, 86, 51) 0%, rgb(185, 185, 47) 50%, rgb(168, 95, 22) 100%);
+     box-shadow: rgb(0, 0, 0) 10px 19px 15px 5px; border: 2px solid rgb(153, 62, 22); display: inline-block;
+}
+nav
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    font-style: italic;
+    color: blue;  
+}

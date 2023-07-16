@@ -1,0 +1,90 @@
+/* Erica Egan*/
+/* CSC102 -index*/
+
+
+
+
+body
+{
+background-color: rgb(160, 152, 152);
+/* this is my back gorund color for my boards page, my index page has a picture background that I added differently on the
+html page*/
+
+}
+p
+{
+    text-align: center;
+    font-size:larger;
+    font-family: monospace;
+    font-weight: bold;
+    color:blue;
+    
+    text-decoration-color: pink;
+}
+button
+{
+    background-color:lime ;
+    border-color: yellow;
+    border-radius: 30px;
+    border-style:dashed;
+    width: 150px;
+    height: 100px;
+    cursor: crosshair;
+    /* this is the basic style for my buttons, i renamed them just for fun on 
+    the index page you can see that noted, these will be changed as we go */
+}
+
+.buttonsJC
+{
+    
+    text-align: center;
+    font-size: 50px;
+    background-color: aqua;
+    border-color: limegreen;
+    border-radius: 16px;
+    border-style: dotted;
+     background-image: linear-gradient(blue), (black);
+/* both my jc buttons top one is for the fisrt   */
+}
+
+.buttonsJC:hover /* whe you hover over my hover buttons 
+you will see the light salmon colored background and 
+the lime colored text */
+{
+    background-color: lightsalmon;
+    border: none;
+    color: lime;
+    padding: 16px 32px;
+    transition-duration: 0.4s;
+ 
+        
+    
+    
+
+}
+
+   .alert
+    {
+    background-color: red;
+    color: black;
+    /* adding this to my alert buttons */
+
+   }
+   footer/*footer cnetered and style*/
+   {
+         text-align: center;
+        font-weight: bold;
+        font-size: x-large;
+        font-style: italic;
+        color: rgb(63, 193, 15);
+   }
+   nav/*nav centered and style*/
+   {
+       text-align: center;
+       font-weight: bold;
+       font-size: x-large;
+       font-style: italic;
+       color: rgb(63, 193, 15);  
+   } 
+
+  

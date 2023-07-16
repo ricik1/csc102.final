@@ -1,0 +1,26 @@
+/* Erica Egan*/
+/* CSC102 -input*/
+
+h1 {
+    color: rgb(255, 0, 234);
+    font-size: xx-large;
+    text-align: left;
+    margin-left: 5%;
+}
+body
+{
+color: rgb(255, 0, 234);
+text-align: left;
+margin-left: 10%;
+font-size: x-large;
+}
+button
+{
+border-color: chartreuse;
+
+}
+input
+{
+    border-color: chartreuse;
+
+}
